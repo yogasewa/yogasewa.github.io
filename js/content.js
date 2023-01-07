@@ -1,7 +1,7 @@
 const select = document.getElementById('select');
 
 document.addEventListener('DOMContentLoaded', () => {
-    axios.get('./db.json')
+    axios.get('db.json')
         .then((options) => {
             options = options.data;
             let out = "";
@@ -14,11 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 select.addEventListener('change', () => {
-    axios.get('./db.json')
+    axios.get('db.json')
         .then((data) => {
             data = data.data;
-            document.getElementById('name').innerText = data.name.en;
-            document.getElementById('body').innerText = data.body;
-            document.getElementById('img').innerHTML = `<img alt="${data.name.en}" src="${data.img}" width="300" height="300">`;
+            
+            document.getElementById('name').innerText = data[select.selectedIndex].name.en;
+            document.getElementById('body').innerText = data[select.selectedIndex].body;
+            document.getElementById('img').innerHTML = `<img alt="${data[select.selectedIndex].name.en}" src="${data[select.selectedIndex].img}" width="300" height="300">`;
         });
 });
