@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
 select.addEventListener('change', () => {
     axios.get('./js/db.json')
         .then((options) => {
-            console.log(options.data)
-            console.log(select.selectedIndex)
-            data = options.data[select.selectedIndex - 1]
-            return data
+            console.log(options.data);
+            console.log(select.selectedIndex);
+            data = options.data[select.selectedIndex - 1];
+            return data;
         })
         .then((data) => {
             document.getElementById('name').innerText = data.name.en;

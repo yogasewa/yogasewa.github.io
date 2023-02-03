@@ -1,10 +1,10 @@
 [
-	{
-		"name": {
-			"sn": "sanskrit name",
-			"en": "english name"
-		},
-		"body": "the body",
-		"img": "https://www.google.com"
-	}
+    {
+        "name": {
+            "sn": "sanskrit name",
+            "en": "english name"
+        },
+        "body": "the body",
+        "img": "https://www.google.com"
+    }
 ]
