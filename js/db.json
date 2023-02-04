@@ -1,10 +1,18 @@
 [
     {
         "name": {
-            "sn": "sanskrit name",
-            "en": "english name"
+            "en": "Tree Pose",
+            "sn": "Vrukshasana"
         },
-        "body": "the body",
+        "body": "The Tree Pose",
+        "img": "https://www.google.com"
+    },
+    {
+        "name": {
+            "en": "Lotus Pose",
+            "sn": "Padmasana"
+        },
+        "body": "The Lotus Pose",
         "img": "https://www.google.com"
     }
 ]
