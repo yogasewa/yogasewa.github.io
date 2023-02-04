@@ -2,17 +2,41 @@
     {
         "name": {
             "en": "Tree Pose",
-            "sn": "Vrukshasana"
+            "sn": "Vrikshasana"
         },
-        "body": "The Tree Pose",
+        "body": "Any movement activity, including yoga, needs to emphasise balance. It improves total body coordination, is helpful for checking in with oneself and maintaining attention. You might choose a point in front of you to quietly focus on or try closing your eyes from the start to challenge yourself in Tree pose. This prevents the mind from wandering when performing an asana or during meditation and is known as a Drishti.",
         "img": "./assets/lotus.png"
     },
     {
         "name": {
-            "en": "Lotus Pose",
+            "en": "Forward Fold Pose",
+            "sn": "Uttanasana"
+        },
+        "body": "Uttanasana can help stretch the hamstrings and extend the spine. However, if your hamstrings are tight or uncomfortable, don't stress about first bending your knees to the point where your hands are on the ground. Maintaining a strong core and a straight back is more crucial than attempting to force anything into a shape that isn't yet ready. With the hamstrings, be patient. The thickest tendons in the body will require more time to stretch than others in order to achieve greater range of motion.",
+        "img": "./assets/lotus.png"
+    },
+    {
+        "name": {
+            "en": "Warrior Pose | and  ||",
+            "sn": "Virabhadrasana"
+        },
+        "body": "Yoga lunge stances called Warriors One and Two are named after incarnations of Shiva, one of the three major deities who stands for Consciousness. Shiva is one among the three principal deities. He is portrayed as having a thousand heads, eyes, and feet as the warrior Virabadhra, carrying a thousand clubs and donning tiger hide. Make sure that your front knee never bends past your front heel when performing these standing poses to protect your knees and legs. It's acceptable if your front leg doesn't initially make a precise 90-degree angle. To add more stability and prevent the knee from buckling, slide the front heel slightly inwards and downwards.",
+        "img": "./assets/lotus.png"
+    },
+    {
+        "name": {
+            "en": "Lotus and Half Lotus Pose",
             "sn": "Padmasana"
         },
-        "body": "The Lotus Pose",
+        "body": "The standard yoga position! Even emojis in the Lotus posture are present! As with the previous poses, take your time getting into this one. Despite being sitting, it still calls for loose hips and supple hamstrings. Try it as well with your knees further forward as opposed to out to the left and right. This results in a shape that initially imposes less stress on the muscles and joints. Don't forget to switch to the other side when practising half lotus.",
+        "img": "./assets/lotus.png"
+    },
+    {
+        "name": {
+            "en": "Cobra Pose",
+            "sn": "Bhujangasana"
+        },
+        "body": "Bhujangasana, a backbend position, is included in the conventional Surya Namaskar routine at steps 8 and 20. The phrase 'Bhujangasana' is a mix of the Sanskrit words 'bhujanga,' which means 'cobra,' and 'asana,' which means 'posture.' It is sometimes referred to as 'Cobra Pose' because it visually mimics the position of a cobra with its hood lifted.",
         "img": "./assets/lotus.png"
     }
 ]
