@@ -5,7 +5,7 @@
             "sn": "Vrukshasana"
         },
         "body": "The Tree Pose",
-        "img": "https://www.google.com"
+        "img": "./assets/lotus.png"
     },
     {
         "name": {
@@ -13,6 +13,6 @@
             "sn": "Padmasana"
         },
         "body": "The Lotus Pose",
-        "img": "https://www.google.com"
+        "img": "./assets/lotus.png"
     }
 ]
