@@ -7,11 +7,3 @@
     --font-family-sans: 'Exo 2', sans-serif;
     --font-family-mono: 'Roboto Mono', monospace;
 }
-
-body.dark {
-    --bg-color: #4a4a4a;
-    --bg-secondary-color: #6a6a6a;
-    --font-color: #FFF;
-    --color-grey: #CCC;
-    --color-darkGrey: #777;
-}
