@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="./assets/main.css">
     <script defer src="https://smtpjs.com/v3/smtp.js"></script>
     <script defer src="./js/form.js"></script>
-    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
     <!-- Navbar -->
@@ -33,14 +32,14 @@
         </nav>
     </div>
     <hr>
-    <main class="container" x-data>
+    <main class="container">
         <h1 class="text-center text-primary">Contact Us</h1>
         <h2></h2>
         <h3></h3>
         <h4></h4>
         <hr>
         <!-- Contact Form -->
-        <form @submit.prevent>
+        <form>
             <div class="row">
                 <div class="col-6">
                     <label for="_name">
@@ -64,7 +63,7 @@
                 </div>
             </div>
             <br>
-            <button class="is-full-width" type="submit" @click="sendMail()">Send</button>
+            <button id="submit" class="is-full-width" type="submit">Send</button>
         </form>
     </main>
     <br>

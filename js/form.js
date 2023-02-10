@@ -18,3 +18,10 @@ function reset() {
     document.getElementById('_mail').value = '';
     document.getElementById('_msg').value = '';
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('submit').addEventListener('click', (e) => {
+        e.preventDefault();
+        sendMail();
+    });
+});
