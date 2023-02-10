@@ -1,7 +1,7 @@
 function sendMail() {
     Email.send({
         SecureToken: "9b2898ee-d697-43bd-bafc-8298ee2c3011",
-        To: 'yogasewa2@gmail.com',
+        To: 'info@yoga-sewa.me',
         From: 'yogasewa3@gmail.com',
         Subject: "New Submission on Contact Form",
         Body: `Name: ${document.getElementById('_name').value} <br>
