@@ -21,7 +21,7 @@ select.addEventListener('change', () => {
         })
         .then((data) => {
             document.getElementById('name').innerText = data.name.en;
-            document.getElementById('body').innerText = data.body;
+            document.getElementById('body').innerHTML = data.body;
             document.getElementById('img').innerHTML = `<img alt="${data.name.en}" src="${data.img}" width="300" height="300">`;
         });
 });
