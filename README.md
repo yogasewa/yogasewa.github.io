@@ -6,7 +6,7 @@ This is our project for SEWA. An easier way to access true information on yoga p
 <br>
 
 ## URL
-https://yogasewa.pages.dev
+https://yoga-sewa.me
 <br>
 <br>
 
